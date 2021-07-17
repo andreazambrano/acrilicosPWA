@@ -21,9 +21,9 @@
 							<li class="menu-item-has-children"  [hidden]="this._uw.admin">
 								<a >Tienda</a>
 								<ul class="sub-menu single-column-menu">
-                                    <li><a routerLink="/prasifilter/Botas y botines">Botas y Botines</a></li>
-                                    <li><a routerLink="/prasifilter/Zapatos">Zapatos</a></li>
-                                    <li><a routerLink="/prasifilter/Moccs">Moccs</a></li>
+                                    <li><a routerLink="/prasifilter/Botas y botines">Cupulas</a></li>
+                                    <li><a routerLink="/prasifilter/Zapatos">Exhibidores</a></li>
+                                    <li><a routerLink="/prasifilter/Moccs">Todo en acrilico</a></li>
                                 </ul>
                             </li>
                             <li  [hidden]="!this._uw.admin">
@@ -39,14 +39,14 @@
                                     <li><a routerLink="">Devoluciones</a></li>
                                 </ul>
                             </li>
-							<li class="menu-item-has-children" [hidden]="this._uw.admin"><a href="javascript:void(0)">Prasi</a>
+							<li class="menu-item-has-children" [hidden]="this._uw.admin"><a href="javascript:void(0)">Acrilicos Mérida</a>
                                 <ul class="sub-menu single-column-menu">
                                     <li><a routerLink="prasiabout">Quienes somos</a></li>
-                                    <li><a >Tabla de tallas</a></li>
-                                    <li><a routerLink="prasidevoluciones">Devoluciones</a></li>
+                                    <li ><a routerLink="prasicontact"  [hidden]="this._uw.admin">Contáctanos</a></li>
+                                   
                                 </ul>
                             </li>
-							<li ><a routerLink="prasicontact"  [hidden]="this._uw.admin">Contactanos</a></li>
+							
 						</ul>
 							</nav>
 						</div>
@@ -103,20 +103,19 @@
 						<li><a >Tienda</a>
 							<ul class="dl-submenu">
 								<li class="dl-back"><a >Atrás</a></li>
-								<li><a routerLink="/prasifilter/Botas y botines">Botas y Botines</a></li>
-                                <li><a routerLink="/prasifilter/Zapatos">Zapatos</a></li>
-                                <li><a routerLink="/prasifilter/Moccs">Moccs</a></li>
+								<li><a routerLink="/prasifilter/Botas y botines">Cupulas</a></li>
+                                <li><a routerLink="/prasifilter/Zapatos">Exhibidores</a></li>
+                                <li><a routerLink="/prasifilter/Moccs">Todo en acrilico</a></li>
 							</ul>
 						</li>
-						<li><a >Prasi</a>
+						<li><a>Arilicos Mérida</a>
 							<ul class="dl-submenu" >
 								<li class="dl-back"><a >Atrás</a></li>
 								 <li><a routerLink="prasiabout">Quienes somos</a></li>
-                                <li><a >Tabla de tallas</a></li>
-                                <li><a routerLink="prasidevoluciones">Devoluciones</a></li>
+                                 <li><a routerLink="prasicontact" >Contáctanos</a></li>
 							</ul>
 						</li>
-						<li><a routerLink="prasicontact" >Contactanos</a></li>
+						
 					</ul>
 
 					<ul class="dl-menu dl-menu-toggle"  [hidden]="!this._uw.admin">
